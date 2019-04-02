@@ -26,7 +26,7 @@ switch(search) {
     break;
   case 'do-what-it-says':
     console.log('Searching for "I Want it That Way"')
-    music.song('I Want it Thaw Way');
+    music.song('I Want it That Way');
     break;
   default:
     console.log('Please enter "concert-this", "spotify-this-song", "movie-this", or "do-what-it-says"');

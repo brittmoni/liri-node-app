@@ -20,6 +20,9 @@ function Movies() {
     Actors: ${movieResults.Actors}
     -------------------------------------------------------
     `
+    if(!movie) {
+      movie = 'Mr. Nobody';
+    }
 
     console.log(movieDets);
     })

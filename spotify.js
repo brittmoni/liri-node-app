@@ -26,12 +26,25 @@ var fs = require('fs');
   }
 
   this.song = function(songName){
-    spotify.search({ type: 'track', query: songName }, function(err, data) {
+    spotify.search({ type: 'track', query: songName, limit: 7 }, function(err, data) {
       if (err) {
         return console.log('Error occurred: ' + err);
+      } else {
+        var songData = data.tracks.items;
+
+        var songInfo = `
+      Artist(s): ${songData}
+      Song Name: ${songData}
+      Link: ${songData}
+      Album: ${songData}
+      ---------------------------------------`
       }
     
-    console.log(data); 
+      if(!songName) {
+        songName = 'The Sign';
+      }
+
+    console.log(songInfo); 
     });
   }
 }
