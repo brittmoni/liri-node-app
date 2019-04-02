@@ -13,3 +13,6 @@ Actors.
 If you forget to input an artist name, song name, or movie name, Liri will default to … respectively. 
 
 Give Liri a try and search for your favorite artist, song, or movie. Below are some images that show how Liri works if you still need a little guidance.
+
+Link to view how to use the movie-this search feature on Liri:
+https://drive.google.com/file/d/1Gl4-N4ZyZB6owAbjsE-k26SVqAnKAeIy/view
